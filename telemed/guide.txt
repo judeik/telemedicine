@@ -1,0 +1,22 @@
+-- Backend Dependencies (Node.js/Express Server)
+
+npm init -y
+
+
+Now, install the following dependencies:
+
+npm install express mysql2 bcryptjs jsonwebtoken cookie-parser express-session dotenv
+
+
+These backend dependencies include:
+
+express: For setting up the server and routing.
+mysql2: For connecting to a MySQL database.
+bcryptjs: For hashing passwords securely.
+jsonwebtoken: For handling authentication tokens.
+cookie-parser: For parsing cookies.
+express-session: For managing sessions in the application.
+dotenv: For managing environment variables securely.
+
+Optional Dev Dependencies
+If you want to automatically restart the server on code changes during development, you can use nodemon:

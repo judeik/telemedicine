@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Login / Register</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2 class="text-center">Doctor Portal</h2>
+
+    <!-- Doctor Login Form -->
+    <div class="card mt-4">
+        <div class="card-header bg-primary text-white">Doctor Login</div>
+        <div class="card-body">
+            <form id="loginForm" action="/doctor-dashboard.html" method="POST">
+                <div class="form-group">
+                    <label for="loginEmail">Email:</label>
+                    <input type="email" class="form-control" id="loginEmail" placeholder="Enter email" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password:</label>
+                    <input type="password" class="form-control" id="loginPassword" placeholder="Enter password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Doctor Registration Form -->
+    <div class="card mt-4">
+        <div class="card-header bg-secondary text-white">Doctor Register</div>
+        <div class="card-body">
+            <form id="registerForm" action="/doctor-dashboard.html" method="POST">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" class="form-control" id="username" placeholder="Enter username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter password" required>
+                </div>
+                <button type="submit" class="btn btn-secondary">Register</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</body>
+</html>
